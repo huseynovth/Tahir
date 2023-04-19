@@ -1,0 +1,41 @@
+.bgimage{
+    background-image: url(./foto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.demo{
+    display:flex;
+    gap: 30px;
+    align-items: center;
+
+}
+span{
+    
+    font-size: 30px;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    display: inline-block;
+    
+}
+.container {
+    width: 1440px;
+    max-width:90% ;
+    margin: 0 auto;
+}
+body{
+    font-family: Montserrat, sans-serif;
+}
+p{
+    line-height:25px ;
+    font-weight: lighter;
+    font-size: 17px;
+}
+a{
+    color: inherit;
+}
+.image img{
+    width: 550px;
+}
